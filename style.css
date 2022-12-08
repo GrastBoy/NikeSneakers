@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -35,3 +36,37 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
+=======
+.container{
+width: 100%;
+max-width: 1440px;
+height: 532px;
+left: 0px;
+margin: 0 auto;
+}
+
+ .about{
+    padding-top: 94px;
+ }
+
+.boarder{
+border: 5px;
+}
+
+.about_us_text{
+    line-height: 1.71;
+}
+
+.parent {
+    border: 2px;
+    height: 30px;
+    line-height: 26px;
+}
+
+.child {
+    display: block;
+        margin-left: 100px;
+        margin-right: auto;
+    border: 2px;
+}
+>>>>>>> Stashed changes
