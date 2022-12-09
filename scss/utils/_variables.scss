@@ -2,4 +2,13 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 1.33;
+}
+.link{
+    text-decoration: none;
+}
+:root {
+    --text-color: #fff;
+    --hero-button-color: #8E32C6;
+    --hover-button-color: #b742ff;
 }

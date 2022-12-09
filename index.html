@@ -12,23 +12,66 @@
     <title>NikeSneakers</title>
 </head>
 <body>
-    <header>
-        <a href="">logo</a>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+            <img src="./images/desktop/logo-desktop.png" alt="Логотип" width="100" class="logo">  
+            <ul class="menu-header list">    
+                <li class="menu-header-item"><a href="#Main-page" class="menu-header-link link">Main page</a></li>
+                <li class="menu-header-item"><a href="#Benefits" class="menu-header-link link">Benefits</a></li>
+                <li class="menu-header-item"><a href="#Advantages" class="menu-header-link link">Advantages</a></li>
+                <li class="menu-header-item"><a href="#Reviews" class="menu-header-link link">Reviews</a></li>
+                <li class="menu-header-item"><a href="#Contacts" class="menu-header-link link">Contacts</a></li>
+                <li class="menu-header-item"><a href="#Order" class="menu-header-link link">Order</a></li>
+                <li class="menu-header-item"><a href="" class="menu-header-link language-page-link link ">Ru</a><a href="" class="menu-header-link language-page-link link">Eng</a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="hero"></section>
+        <section class="hero">
+            <div class="container">
+                <div class="composition__logo-text">
+                <img src="./images/desktop/logo-desktop.png" class="composition__logo" width="160" alt="Логотип">
+                <p class="composition__text">С&R</p>
+                </div>
+                <div class="hero-text">
+                <h1 class="hero-text__first-title">ColoRawe</h1>
+                <h2 class="hero-text__second-title">Your dream Nike</h2>
+                <p class="hero-text__third-title">On this site you can find custom Nike sneakers of your dreams.
+                    The original company caт`t create such beautiful
+                    sneakers as we do.
+                    <br> Good luck finding your way in the world of custom sneakers.
+                </p>
+                </div>
+                <button class="hero__button">Buy my Nike</button>
+                <div class="hero__img">
+                    <img class="hero__img-nike" src="./images/desktop/sneakers-nike-desktop.png" alt="">
+                </div>
+                
+            </div>
+        </section>
         <section class="adventage"></section>
         <section class="info-components"></section>
         <section class="review"></section>
-        <section class="order"></section>
+        <section class="order">
+            <div class="container">
+                <h3 class="title-section-order">Order</h3>
+                <form action="#">
+                    
+                        <input type="email" class="email-input addres-input" placeholder="Write your email">
+                        <button class="email-button" type="submit">Confirm</button>
+                    
+                    <div class="addres-block">
+                        <input type="text" class="addres-input" placeholder="Your City">
+                        <input type="text" class="addres-input" placeholder="Your Country">
+                        <input type="text" class="addres-input" placeholder="Your Adress">        
+                    </div> 
+                    <button class="form-button-submit" type="submit">Order my Nike</button>
+                </form>
+            </div>
+            
+        </section>
     </main>
     <footer></footer>
 </body>

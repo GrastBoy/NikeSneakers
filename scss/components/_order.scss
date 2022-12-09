@@ -1,0 +1,66 @@
+.order{
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    background-image: url(../images/desktop/background-order-desktop.png);
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 21px;
+    padding-bottom: 38px;   
+}
+.title-section-order{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    line-height: 1.33;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    margin-bottom: 33px;
+}
+.form{
+    position: relative;
+    display: inline-block;
+}
+.addres-input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    background: var(--text-color);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    padding: 0 0 0 25px;
+}
+.email-input{
+
+    width: 690px;
+    height: 60px;
+}
+.email-button {
+    position: absolute;
+    left: 809px;
+    top: 123px;
+    opacity: 0.5;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    padding: 0;
+}
+.form-button-submit{
+    display: block;
+    margin: 0 auto;
+    width: 248px;
+    height: 68px;
+    background-color: var(--hero-button-color);
+    border-radius: 16px;
+    border: none;
+    &:hover,
+    &:focus {
+        background-color: var(--hover-button-color);
+    }
+}

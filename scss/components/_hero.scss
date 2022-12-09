@@ -1,0 +1,87 @@
+.hero {
+    position: relative;
+    z-index: 2;
+    top: 90px;
+    width: 1440px;
+    height: 948px;
+    background-image: url(../images/desktop/background-hero-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.composition__logo-text{
+    margin-left: 170px;
+    position: relative;
+}
+
+.composition__logo {
+    height: 120px;
+    display: block;
+}
+
+.composition__text {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-family: 'PT Serif';
+    font-size: 48px;
+    color: var(--text-color);
+}
+.hero-text{
+    margin-left: 157px;
+}
+
+.hero-text__first-title {
+    font-family: 'Playfair Display';
+    font-size: 144px;
+    color: var(--text-color);
+}
+
+.hero-text__second-title {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    margin-bottom: 12px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+.hero-text__third-title {
+    display: block;
+    font-size: 18px;
+    line-height: 1.16;
+    width: 500px;
+    color: var(--text-color);
+}
+
+.hero__button {
+    margin-left: 157px;
+    margin-top: 41px;
+    padding: 20px 61px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 1.16;
+
+    background-color: var(--hero-button-color);
+    color: var(--text-color);
+
+
+
+    &:hover,
+    &:focus {
+        background-color: var(--hover-button-color);
+    }
+}
+
+.hero__img {
+    position: relative;
+}
+
+.hero__img-nike {
+    position: absolute;
+    left: 500px;
+    top: -524px;
+
+}
