@@ -1,72 +1,41 @@
-<<<<<<< Updated upstream
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+body{
+    margin: 0;
 }
 
-.our-work-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+.reviwes{
+    background-image: url(./imges/bg.jpg);
+    background-size: cover;
+    padding: 45px 0px 75px 0px;
+    
+    position: relative;
 }
 
-.item-works {
-  position: relative;
+.reviwes::after{
+    content: "";
+    background-image: url(./imges/bg-flovers.png);
+    width: 340px;
+    height: 380px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.our-works-text {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  width: 100%;
-  min-height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}/*# sourceMappingURL=style.css.map */
-=======
-.container{
-width: 100%;
-max-width: 1440px;
-height: 532px;
-left: 0px;
-margin: 0 auto;
+
+.wraper{
+    max-width:1200px ;
+    margin: auto;
 }
 
- .about{
-    padding-top: 94px;
- }
-
-.boarder{
-border: 5px;
+.reviews__cards{
+ display: flex;
+ justify-content: space-around;
+ margin: auto;
 }
 
-.about_us_text{
-    line-height: 1.71;
+.reviews__card{
+    height: 255px;
+    width: 300px;
+    background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    border-radius: 15px;
 }
-
-.parent {
-    border: 2px;
-    height: 30px;
-    line-height: 26px;
-}
-
-.child {
-    display: block;
-        margin-left: 100px;
-        margin-right: auto;
-    border: 2px;
-}
->>>>>>> Stashed changes
