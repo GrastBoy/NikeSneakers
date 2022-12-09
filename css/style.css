@@ -161,7 +161,6 @@ body {
   display: block;
   font-size: 18px;
   line-height: 1.16;
-  width: 500px;
   color: var(--text-color);
 }
 
@@ -247,6 +246,9 @@ body {
   width: 250px;
   height: 50px;
   padding: 0;
+}
+.email-button:hover, .email-button:focus {
+  border-color: var(--hover-button-color);
 }
 
 .form-button-submit {
