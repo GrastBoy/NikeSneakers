@@ -64,6 +64,22 @@ body {
   --hover-button-color: #b742ff;
 }
 
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
 .header {
   position: fixed;
   z-index: 100;
