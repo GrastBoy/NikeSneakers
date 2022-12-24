@@ -1,0 +1,119 @@
+-body {
+    margin: 0;
+}
+
+.reviwes {
+    background-image: url(./imges/bg.jpg);
+    background-size: cover;
+    padding: 45px 0px 75px 0px;
+
+    position: relative;
+}
+
+.reviwes::after {
+    content: "";
+    background-image: url(./imges/bg-flovers.png);
+    width: 340px;
+    height: 380px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.wraper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.reviwes__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.reviews__cards {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.reviews__card1 {
+    height: 255px;
+    width: 300px;
+    background: background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    border-radius: 15px;
+    padding: 50px 15px 30px 15px;
+}
+
+.reviews__card2 {
+    height: 255px;
+    width: 300px;
+    background:linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    border-radius: 15px;
+    padding: 50px 15px 30px 15px;
+}
+
+.reviews__card3 {
+    height: 255px;
+    width: 300px;
+    background: background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    border-radius: 15px;
+    padding: 50px 15px 30px 15px;
+}
+
+
+
+.reviews__card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.reviews__card-date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #D8D8D8;
+}
+
+.reviews__card-descriptions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 50px;
+}
+
+.reviews__card-descriptions-text-name {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.reviews__card-descriptions-text-date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #D8D8D8;
+}
