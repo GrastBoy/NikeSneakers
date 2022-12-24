@@ -1,14 +1,17 @@
 .order{
     display: block;
-    position: relative;
-    z-index: 1;
-    top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../images/desktop/background-order-desktop.png);
-    width: 1440px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding-top: 21px;
-    padding-bottom: 38px;   
+    padding-bottom: 38px;  
+    @media screen and(min-width: 360px) {
+        width: 360px
+    } 
 }
 .title-section-order{
     font-family: 'Playfair Display';
@@ -34,11 +37,18 @@
     width: 580px;
     height: 50px;
     padding: 0 0 0 25px;
+    @media screen and(min-width: 360px) {
+        width: 242px;
+        height: 35px;
+    }
 }
 .email-input{
-
     width: 690px;
     height: 60px;
+    @media screen and(min-width: 360px) {
+        width: 242px;
+        height: 35px;
+    }
 }
 .email-button {
     position: absolute;
@@ -54,6 +64,9 @@
         &:focus {
             border-color: var(--hover-button-color);
         }
+    @media screen and(min-width: 360px) {
+        display: none;
+    }
 }
 .form-button-submit{
     display: block;
@@ -66,5 +79,10 @@
     &:hover,
     &:focus {
         background-color: var(--hover-button-color);
+    }
+    @media screen and(min-width: 360px) {
+        width: 212px;
+        height: 51px;
+        border-radius: 10px;
     }
 }
