@@ -1,9 +1,9 @@
 .hero {
-    position: relative;
-    z-index: 2;
-    top: 90px;
+    display: block;
     width: 1440px;
     height: 948px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../images/desktop/background-hero-desktop.png);
     background-position: center;
     background-repeat: no-repeat;

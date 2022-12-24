@@ -82,13 +82,13 @@ body {
 }
 
 .header {
-  position: fixed;
-  z-index: 100;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 1440px;
   height: 93px;
   background: #012D63;
   padding: 30px 165px;
-  top: 0;
 }
 
 .navigation {
@@ -126,11 +126,11 @@ body {
 }
 
 .hero {
-  position: relative;
-  z-index: 2;
-  top: 90px;
+  display: block;
   width: 1440px;
   height: 948px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../images/desktop/background-hero-desktop.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -209,11 +209,11 @@ body {
 
 .order {
   display: block;
-  position: relative;
-  z-index: 1;
-  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../images/desktop/background-order-desktop.png);
-  width: 1440px;
+  max-width: 1440px;
+  max-height: 510px;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 21px;
@@ -231,9 +231,8 @@ body {
   margin-bottom: 33px;
 }
 
-.form {
+.email-block {
   position: relative;
-  display: inline-block;
 }
 
 .addres-input {
@@ -256,7 +255,7 @@ body {
 .email-button {
   position: absolute;
   left: 809px;
-  top: 123px;
+  top: 5px;
   opacity: 0.5;
   border: 1px solid #000000;
   border-radius: 50px;
@@ -282,11 +281,16 @@ body {
 }
 
 .footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 164px;
+  padding-left: 164px;
   padding-top: 45px;
   padding-bottom: 50px;
   background-color: var(--footer-background-color);
-  height: 292px;
-  width: 1440px;
+  max-height: 292px;
+  max-width: 1440px;
 }
 
 .footer-question {
@@ -329,10 +333,17 @@ body {
 
 .footer_logo {
   display: block;
+  width: 100px;
+  height: 81px;
+}
+
+.footer_logo-div {
+  position: relative;
 }
 
 .footer__text {
   display: block;
+  position: absolute;
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;

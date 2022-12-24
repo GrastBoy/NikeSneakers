@@ -1,15 +1,21 @@
 .footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 164px;
+    padding-left: 164px;
     padding-top: 45px;
     padding-bottom: 50px;
     background-color: var(--footer-background-color);
-    height: 292px;
-    width: 1440px;
+    max-height: 292px;
+    max-width: 1440px;
 }
 .footer-question{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px solid  #5E5E5E;
+    
 }
 
 .footer-list{
@@ -40,9 +46,15 @@
 }
 .footer_logo{
     display: block;
+    width: 100px;
+    height: 81px;
+}
+.footer_logo-div{
+    position: relative;
 }
 .footer__text{
     display: block;
+    position: absolute;
     font-family: "PT Serif";
     font-style: normal;
     font-weight: 400;

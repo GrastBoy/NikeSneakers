@@ -1,10 +1,10 @@
 .order{
     display: block;
-    position: relative;
-    z-index: 1;
-    top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../images/desktop/background-order-desktop.png);
-    width: 1440px;
+    max-width: 1440px;
+    max-height: 510px;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 21px;
@@ -20,9 +20,8 @@
     color: var(--text-color);
     margin-bottom: 33px;
 }
-.form{
+.email-block{
     position: relative;
-    display: inline-block;
 }
 .addres-input{
     display: block;
@@ -36,14 +35,13 @@
     padding: 0 0 0 25px;
 }
 .email-input{
-
     width: 690px;
     height: 60px;
 }
 .email-button {
     position: absolute;
     left: 809px;
-    top: 123px;
+    top: 5px;
     opacity: 0.5;
     border: 1px solid #000000;
     border-radius: 50px;

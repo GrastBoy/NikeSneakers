@@ -1,11 +1,11 @@
 .header {
-    position: fixed;
-    z-index: 100;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 1440px;
     height: 93px;
     background: #012D63;
     padding: 30px 165px;
-    top: 0;
 }
 .navigation{
     display: flex;
