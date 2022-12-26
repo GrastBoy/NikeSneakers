@@ -12,7 +12,7 @@
     <title>NikeSneakers</title>
 </head>
 <body>
-    <!-- <header class="header">
+     <header class="header">
         <div class="container">
             <nav class="navigation">
             <img src="./images/desktop/logo-desktop.png" alt="Логотип" width="100" class="logo">  
@@ -27,10 +27,35 @@
             </ul>
             </nav>
         </div>
-    </header> -->
+    </header>
+
+    <!-- menu mobile -->
+    <div class="mobile-menu" data-menu>
+        <ul class="menu-mobile list">
+            <li class="menu-mobile_item "><a class="menu_link menu--curren" href="">Main page</a></li>
+            <li class="menu-mobile_item"><a class="menu_link" href="">Benefits</a></li>
+            <li class="menu-mobile_item"><a class="menu_link" href="">Advantages</a></li>
+            <li class="menu-mobile_item"><a class="menu_link" href="">Reviews</a></li>
+            <li class="menu-mobile_item"><a class="menu_link" href="">Contacts</a></li>
+            <li class="menu-mobile_item"><a class="menu_link" href="">Order</a></li>
+        </ul>
+    
+        <ul class="mobile-language list">
+            <li class="mobile-language_item"><a class="menu_link" href="">Ru</a></li>
+            <li class="mobile-language_item"><a class="menu_link menu--curren" href="">En</a></li>
+        </ul>
+    </div>
     <main>
-        <!-- <section class="hero">
+         <section class="hero">
             <div class="container">
+                
+                <!-- button-mobile menu -->
+                <button class="button-mobile " data-menu-button>
+                    <svg class="icon-mobile " aria-label="Переключатель меню">
+                        <use class="menu-icon" href="./images/icons/button-menu.svg#icon-burger"></use>
+                        <use class="menu-close" href="./images/icons/button-menu.svg#icon-close"></use>
+                    </svg>
+                </button>
                 <div class="composition__logo-text">
                 <img src="./images/desktop/logo-desktop.png" class="composition__logo" width="160" alt="Логотип">
                 <p class="composition__text">С&R</p>
@@ -50,10 +75,11 @@
                 </div>
                 
             </div>
-        </section> -->
+        </section>
         <section class="adventage"></section>
         <section class="info-components"></section>
         <section class="review"></section>
+        <!--
         <section class="order">
             <div class="container">
                 <h3 class="title-section-order">Order</h3>
@@ -68,7 +94,9 @@
             </div>
             
         </section>
+        -->
     </main>
     <footer></footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

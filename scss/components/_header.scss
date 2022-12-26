@@ -1,11 +1,20 @@
 .header {
-    position: fixed;
-    z-index: 100;
-    width: 1440px;
-    height: 93px;
-    background: #012D63;
-    padding: 30px 165px;
-    top: 0;
+    @media screen and (min-width: 360px) {
+            display: none;
+
+
+        }
+    
+        @media screen and (min-width: 1440px) {
+            display: block;
+            position: fixed;
+                z-index: 100;
+                width: 1440px;
+                height: 93px;
+                background: #012D63;
+                padding: 30px 165px;
+                top: 0;
+        }
 }
 .navigation{
     display: flex;

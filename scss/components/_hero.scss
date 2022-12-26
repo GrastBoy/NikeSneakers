@@ -1,14 +1,23 @@
 .hero {
     position: relative;
     z-index: 2;
-    top: 90px;
-    width: 1440px;
-    height: 948px;
-    background-image: url(../images/desktop/background-hero-desktop.png);
+    
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+@media screen and (min-width: 360px) {
+        background-image: url(../../images/mobile/hero-mobile.png);
+        height: 737px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        top: 90px;
+            width: 1440px;
+            height: 948px;
+            background-image: url(../images/desktop/background-hero-desktop.png);
+    }
 }
 .composition__logo-text{
     margin-left: 170px;
@@ -16,41 +25,118 @@
 }
 
 .composition__logo {
-    height: 120px;
+    
     display: block;
+
+    @media screen and (min-width: 360px) {
+            margin-left: -150px;
+            width: 96px;
+        }
+    
+        @media screen and (min-width: 1440px) {
+            margin-left: -165px;
+            width: 120px;
+        }
+
 }
 
 .composition__text {
     position: absolute;
-    top: 90px;
-    left: 20px;
     font-family: 'PT Serif';
-    font-size: 48px;
     color: var(--text-color);
+
+    @media screen and (min-width: 360px) {
+        margin-left: -130px;
+        font-size: 24px;
+        line-height: 32px;
+
+        
+        }
+    
+        @media screen and (min-width: 1440px) {
+            font-size: 48px;
+            top: 60px;
+            left: 20px;
+            margin-left: -165px;
+            margin-bottom: 40px;
+        }
+
 }
 .hero-text{
-    margin-left: 157px;
+    
+
+    @media screen and (min-width: 360px) {
+            margin-left: 25px;
+        }
+    
+        @media screen and (min-width: 1440px) {
+            margin-left: 157px;
+            
+        }
 }
 
 .hero-text__first-title {
+    font-style: normal;
+    font-weight: 400;
     font-family: 'Playfair Display';
     font-size: 144px;
     color: var(--text-color);
+
+        @media screen and (min-width: 360px) {
+            font-size: 64px;
+                line-height: 85px;
+                
+            }
+        
+            @media screen and (min-width: 1440px) {
+                font-size: 144px;
+                line-height: 192px;
+
+            }
+        
+       
 }
 
 .hero-text__second-title {
     font-family: 'Playfair Display';
-    font-size: 72px;
-    margin-bottom: 12px;
     font-weight: normal;
     color: var(--text-color);
+    font-weight: 400;
+
+@media screen and (min-width: 360px) {
+            font-size: 36px;
+            line-height: 48px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 72px;
+            margin-bottom: 12px;
+    }
+
+        
 }
 
 .hero-text__third-title {
     display: block;
-    font-size: 18px;
-    line-height: 1.16;
     color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto';
+
+    @media screen and (min-width: 360px) {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    
+        @media screen and (min-width: 1440px) {
+            font-size: 18px;
+            line-height: 1.16;
+            
+        }
+
+    
+        
+        
 }
 
 .hero__button {
@@ -76,11 +162,24 @@
 
 .hero__img {
     position: relative;
+
+    
 }
 
 .hero__img-nike {
     position: absolute;
-    left: 500px;
-    top: -524px;
+    @media screen and (min-width: 360px) {
+       width: 510px;
+       
+      top: -52px;
+    }
+    
+        @media screen and (min-width: 1440px) {
+            width: 840px;
+         left: 500px;
+         top: -524px;
+        }
+
+    
 
 }
