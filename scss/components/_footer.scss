@@ -1,3 +1,4 @@
+
 .footer{
     display: block;
     margin-left: auto;
@@ -9,6 +10,7 @@
     background-color: var(--footer-background-color);
     max-height: 292px;
     max-width: 1440px;
+
 }
 .footer-question{
     display: flex;
@@ -35,6 +37,7 @@
     font-size: 18px;
     line-height: 21px;
     color: var(--text-color);
+    margin-bottom: 7px;
 }
 .footer__country{
     font-family: 'Roboto';
@@ -48,6 +51,7 @@
     display: block;
     width: 100px;
     height: 81px;
+    margin-left: 20px;
 }
 .footer_logo-div{
     position: relative;
@@ -55,6 +59,8 @@
 .footer__text{
     display: block;
     position: absolute;
+    top: 55px;
+    left: 30px;
     font-family: "PT Serif";
     font-style: normal;
     font-weight: 400;
@@ -63,3 +69,4 @@
     color: #fff;
     margin-left: 10px;
 }
+

@@ -1,0 +1,21 @@
+.adventage {
+    background-image: url(../../images/desktop/group-8-1.png);
+    max-height: 606px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.adventage__list {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 80px;
+}
+
+.adventage__item:not(:last-child) {
+    margin-right: 101px;
+}
