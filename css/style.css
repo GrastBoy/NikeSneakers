@@ -81,93 +81,87 @@ body {
   }
 }
 
-
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 1440px) {
   .header {
+    top: 0;
+    height: 90px;
+    background-color: #012D63;
+    position: sticky;
+    z-index: 5;
+  }
+}
+
+.nav {
+  display: flex;
+}
+@media screen and (max-width: 480px) {
+  .nav {
     display: none;
   }
 }
-@media screen and (min-width: 1440px) {
-  .header {
-    display: block;
-    position: fixed;
-    z-index: 100;
-    width: 1440px;
-    height: 93px;
-    background: #012D63;
-    padding: 30px 165px;
-    top: 0;
-  }
 
-.header {
-
-  position: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1440px;
-  height: 93px;
-  background: #012D63;
-  padding: 30px 165px;
-
-  background: #012D63;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
+.header_logo {
   display: block;
-  height: 60px;
+  padding-top: 30px;
 }
 
-.menu-header {
+.menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 152px;
+  margin-left: 100px;
+}
+@media screen and (max-width: 767.98px) {
+  .menu {
+    display: none;
+  }
 }
 
-.menu-header-item:not(:last-child) {
-  margin-right: 23px;
-}
-
-.menu-header-link {
+.menu_link {
+  margin-right: 28px;
+  font-weight: 300;
   font-size: 24px;
+  line-height: 1.16;
+  text-decoration: none;
   color: #C7C7C7;
 }
-.menu-header-link:hover, .menu-header-link:focus {
-  color: var(--text-color);
+
+.menu_item:last-child {
+  margin-right: 0px;
 }
 
-.language-page-link:first-child {
-  margin-left: 70px;
-  margin-right: 10px;
+.menu_link:hover,
+.menu_link:focus {
+  color: #DCDCDC;
 }
 
-.hero {
-
-  display: block;
-  width: 1440px;
-
-
-  position: relative;
-  z-index: 2;
-
-  display: block;
-  height: 948px;
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
-  margin-right: auto;
-  background-image: url(../images/desktop/background-hero-desktop.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
+@media screen and (max-width: 767.98px) {
+  .language {
+    display: none;
+  }
+}
+
+.language_ru,
+.language_en {
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #C7C7C7;
+  cursor: pointer;
+}
+
+.language_ru:hover,
+.language_en:hover {
+  color: #DCDCDC;
+}
+
 @media screen and (min-width: 360px) {
   .hero {
     background-image: url(../../images/mobile/hero-mobile.png);
@@ -176,10 +170,16 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .hero {
-    top: 90px;
-    width: 1440px;
-    height: 948px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../images/desktop/background-hero-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -340,7 +340,7 @@ body {
   border: none;
   display: -webkit-box;
 }
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1440px) {
   .button-mobile {
     display: none;
   }
@@ -387,7 +387,7 @@ body {
 }
 
 .menu-mobile {
-  padding-top: 90px;
+  padding-top: 60px;
 }
 
 .menu-mobile_item {
@@ -511,13 +511,6 @@ body {
   margin-right: auto;
   text-align: center;
   display: block;
-
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../images/desktop/background-order-desktop.png);
-  max-width: 1440px;
-  max-height: 510px;
-
 }
 @media screen and (min-width: 360px) {
   .echoes {
@@ -554,6 +547,7 @@ body {
     line-height: 1.33;
     text-align: center;
     color: var(--text-color);
+    margin-bottom: 42px;
   }
 }
 
@@ -562,7 +556,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .echoes-list__list {
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 
@@ -742,12 +736,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: url(../images/desktop/background-order-desktop.png);
-
   max-width: 1440px;
-
+  max-height: 510px;
+  max-width: 1440px;
   max-height: 510px;
   background-size: cover;
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -836,28 +829,19 @@ body {
 .form-button-submit:hover, .form-button-submit:focus {
   background-color: var(--hover-button-color);
 }
-
 @media screen and (min-width: 360px) {
   .form-button-submit {
     width: 212px;
     height: 51px;
     border-radius: 10px;
   }
-
+}
 
 .footer {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 164px;
-  padding-left: 164px;
   padding-top: 45px;
   padding-bottom: 50px;
   background-color: var(--footer-background-color);
-  max-height: 292px;
-
-  max-width: 1440px;
-
 }
 
 .footer-question {
@@ -880,9 +864,7 @@ body {
 .footer-title {
   display: flex;
   justify-content: space-between;
-
   margin-bottom: 20px;
-
 }
 
 .footer__reserved {

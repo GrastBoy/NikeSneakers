@@ -1,61 +1,81 @@
 .header {
-    position: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
-    height: 93px;
-    background: #012D63;
-    padding: 30px 165px;
-    @media screen and (min-width: 360px) {
-            display: none;
-        }
-    
-        @media screen and (min-width: 1440px) {
-            display: block;
-            position: fixed;
-                z-index: 100;
-                width: 1440px;
-                height: 93px;
-                background: #012D63;
-                padding: 30px 165px;
-                top: 0;
-        }
- 
-    background: #012D63;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    @media screen and (min-width: 1440px) {
+        top: 0;
+        height: 90px;
+        background-color: #012D63;
 
+        position: sticky;
+        z-index: 5;
+    }
 }
-.navigation{
+
+.nav {
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+
     display: flex;
-    align-items: center;
-        justify-content: center;
 }
 
-.logo {
+.header_logo {
     display: block;
-    height: 60px;
+    padding-top: 30px;
 }
 
-.menu-header {
+.menu {
+    @media screen and (max-width: 767.98px) {
+        display: none;
+    }
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 152px;
-}
-.menu-header-item:not(:last-child){
-    margin-right: 23px;
+    margin-left: 100px;
 }
 
-.menu-header-link {
+.menu_link {
+    margin-right: 28px;
+    font-weight: 300;
     font-size: 24px;
+    line-height: 1.16;
+    text-decoration: none;
     color: #C7C7C7;
-    &:hover,
-    &:focus {
-        color: var(--text-color);
+}
+
+.menu_item:last-child {
+    margin-right: 0px;
+}
+
+.menu_link:hover,
+.menu_link:focus {
+    color: #DCDCDC;
+}
+
+.language {
+    @media screen and (max-width: 767.98px) {
+        display: none;
     }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
 }
-.language-page-link:first-child{
-    margin-left: 70px;
-    margin-right: 10px;
+
+.language_ru,
+.language_en {
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #C7C7C7;
+    cursor: pointer;
 }
+
+.language_ru:hover,
+.language_en:hover {
+color: #DCDCDC;
+}
+
+
+
