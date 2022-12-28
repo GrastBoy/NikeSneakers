@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 .footer{
     display: block;
     margin-left: auto;
@@ -10,6 +9,8 @@
     padding-bottom: 50px;
     background-color: var(--footer-background-color);
     max-height: 292px;
+    max-width: 1440px;
+
 }
 .footer-question{
     display: flex;
@@ -30,6 +31,7 @@
 .footer-title{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .footer__reserved{
     font-size: 18px;
@@ -67,4 +69,4 @@
     color: #fff;
     margin-left: 10px;
 }
->>>>>>> Stashed changes
+

@@ -3,12 +3,11 @@
     margin-left: auto;
     margin-right: auto;
     background-image: url(../images/desktop/background-order-desktop.png);
-<<<<<<< Updated upstream
     max-width: 1440px;
-=======
+    max-height: 510px;
+    max-width: 1440px;
     max-height: 510px;
     background-size: cover;
->>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,9 +27,8 @@
     color: var(--text-color);
     margin-bottom: 33px;
 }
-.form{
+.email-block{
     position: relative;
-    display: inline-block;
 }
 .addres-input{
     display: block;
@@ -58,7 +56,7 @@
 .email-button {
     position: absolute;
     left: 809px;
-    top: 123px;
+    top: 5px;
     opacity: 0.5;
     border: 1px solid #000000;
     border-radius: 50px;
