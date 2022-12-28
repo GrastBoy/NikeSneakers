@@ -1,29 +1,24 @@
-.hero {
-    display: block;
-    width: 1440px;
-    position: relative;
-    z-index: 2;
-    display: block;
-    height: 948px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/desktop/background-hero-desktop.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.hero { 
 @media screen and (min-width: 360px) {
         background-image: url(../../images/mobile/hero-mobile.png);
         height: 737px;
     }
 
     @media screen and (min-width: 1440px) {
-        top: 90px;
-            width: 1440px;
-            height: 948px;
+        display: block;
+            position: relative;
+            z-index: 2;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             background-image: url(../images/desktop/background-hero-desktop.png);
-    }
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
 }
+}
+
 .composition__logo-text{
     margin-left: 170px;
     position: relative;
@@ -98,8 +93,6 @@
                 line-height: 192px;
 
             }
-        
-       
 }
 
 .hero-text__second-title {
@@ -138,10 +131,7 @@
             line-height: 1.16;
             
         }
-
-    
-        
-        
+       
 }
 
 .hero__button {
@@ -183,8 +173,6 @@
             width: 840px;
          left: 500px;
          top: -524px;
-        }
-
-    
+        }   
 
 }

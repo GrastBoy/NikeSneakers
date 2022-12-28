@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,24 +12,32 @@
     <link rel="stylesheet" href="./css/style.min.css">
     <title>NikeSneakers</title>
 </head>
+
 <body>
-     <header class="header">
+    <header class="header">
         <div class="container">
-            <nav class="navigation">
-            <img src="./images/desktop/logo-desktop.png" alt="Логотип" width="100" class="logo">  
-            <ul class="menu-header list">    
-                <li class="menu-header-item"><a href="#Main-page" class="menu-header-link link">Main page</a></li>
-                <li class="menu-header-item"><a href="#Benefits" class="menu-header-link link">Benefits</a></li>
-                <li class="menu-header-item"><a href="#Advantages" class="menu-header-link link">Advantages</a></li>
-                <li class="menu-header-item"><a href="#Reviews" class="menu-header-link link">Reviews</a></li>
-                <li class="menu-header-item"><a href="#Contacts" class="menu-header-link link">Contacts</a></li>
-                <li class="menu-header-item"><a href="#Order" class="menu-header-link link">Order</a></li>
-                <li class="menu-header-item"><a href="" class="menu-header-link language-page-link link ">Ru</a><a href="" class="menu-header-link language-page-link link">Eng</a></li>
-            </ul>
+            <nav class="nav">
+                <a class="header_logo" href="#">
+                    <img src="./images/desktop/logo-desktop.png" width="100" alt="Логотип">
+                </a>
+                <ul class="menu list">
+                    <li class="menu_item "><a class="menu_link" href="">Main page</a></li>
+                    <li class="menu_item"><a class="menu_link" href="">Benefits</a></li>
+                    <li class="menu_item"><a class="menu_link" href="">Advantages</a></li>
+                    <li class="menu_item"><a class="menu_link" href="">Reviews</a></li>
+                    <li class="menu_item"><a class="menu_link" href="">Contacts</a></li>
+                    <li class="menu_item"><a class="menu_link" href="">Order</a></li>
+                </ul>
+
+
+                <frames class="language">
+                    <samp class="language_ru">Ru</samp><samp class="language_en">En</samp>
+                </frames>
+
+
             </nav>
         </div>
     </header>
-
     <!-- menu mobile -->
     <div class="mobile-menu" data-menu>
         <ul class="menu-mobile list">
@@ -39,14 +48,15 @@
             <li class="menu-mobile_item"><a class="menu_link" href="">Contacts</a></li>
             <li class="menu-mobile_item"><a class="menu_link" href="">Order</a></li>
         </ul>
-    
+
         <ul class="mobile-language list">
             <li class="mobile-language_item"><a class="menu_link" href="">Ru</a></li>
             <li class="mobile-language_item"><a class="menu_link menu--curren" href="">En</a></li>
         </ul>
     </div>
+
     <main>
-         <section class="hero">
+        <section class="hero">
             <div class="container">
 
                 <!-- button-mobile menu -->
@@ -57,31 +67,25 @@
                     </svg>
                 </button>
                 <div class="composition__logo-text">
-                <img src="./images/desktop/logo-desktop.png" class="composition__logo" width="160" alt="Логотип">
-                <p class="composition__text">С&R</p>
+                    <img src="./images/desktop/logo-desktop.png" class="composition__logo" width="160" alt="Логотип">
+                    <p class="composition__text">С&R</p>
                 </div>
                 <div class="hero-text">
-                <h1 class="hero-text__first-title">ColoRawe</h1>
-                <h2 class="hero-text__second-title">Your dream Nike</h2>
-                <p class="hero-text__third-title">On this site you can find custom Nike sneakers of your dreams.<br>
-                    The original company caт`t create such beautiful<br>
-                    sneakers as we do.<br>
-                    Good luck finding your way in the world of custom sneakers.
-                </p>
+                    <h1 class="hero-text__first-title">ColoRawe</h1>
+                    <h2 class="hero-text__second-title">Your dream Nike</h2>
+                    <p class="hero-text__third-title">On this site you can find custom Nike sneakers of your dreams.<br>
+                        The original company caт`t create such beautiful<br>
+                        sneakers as we do.<br>
+                        Good luck finding your way in the world of custom sneakers.
+                    </p>
                 </div>
                 <button class="hero__button">Buy my Nike</button>
                 <div class="hero__img">
                     <img class="hero__img-nike" src="./images/desktop/sneakers-nike-desktop.png" alt="">
                 </div>
-                
+
             </div>
         </section>
-
-        <section class="adventage"></section>
-        <section class="info-components"></section>
-        <section class="review"></section>
-        
-
         <section class="adventage">
             <div class="container">
                 <ul class="adventage__list list">
@@ -101,7 +105,7 @@
                     <img src="images/desktop/group-1.png" alt="circle" class="info-components__zoom">
                 </div>
                 <button class="info-components__button">10% fabric 40% natural fabric 50% polyester</button>
-        
+
             </div>
         </section>
         <section class="echoes">
@@ -118,7 +122,7 @@
                         <h3 class="echoes__name">John Teylor</h3>
                         <p class="echoes__deit">With us from 2018</p>
                     </li>
-        
+
                     <li class="echoes__item2 fon">
                         <p class="echoes__text">I'm very happy with this color scheme.
                             They match all my clothes.</p>
@@ -127,7 +131,7 @@
                         <h3 class="echoes__name">Elizabeth Garsia</h3>
                         <p class="echoes__deit">With us from 2020</p>
                     </li>
-        
+
                     <li class="echoes__item3 fon">
                         <p class="echoes__text">Just right if you need to go to a party.
                             I use them actively, the paint is super.</p>
@@ -138,67 +142,65 @@
                     </li>
                 </ul>
             </div>
-        
+
         </section>
-        <section class="order">
+
+        <!-- <section class="order">
             <div class="container">
                 <h3 class="title-section-order">Order</h3>
 
-                <form action="#"> 
-                    <div class="email-block"> 
+                <form action="#">
+                    <div class="email-block">
                         <input type="email" class="email-input addres-input" placeholder="Write your email">
-                        <button class="email-button" type="submit">Confirm</button> 
+                        <button class="email-button" type="submit">Confirm</button>
                     </div>
                     <div class="addres-block">
 
-                <form action="#">                 
-                        <input type="email" class="email-input addres-input" placeholder="Write your email">
-                        <button class="email-button" type="submit">Confirm</button>     
+                        <form action="#">
+                            <input type="email" class="email-input addres-input" placeholder="Write your email">
+                            <button class="email-button" type="submit">Confirm</button>
 
-                        <input type="text" class="addres-input" placeholder="Your City">
-                        <input type="text" class="addres-input" placeholder="Your Country">
-                        <input type="text" class="addres-input" placeholder="Your Adress">               
-                </form>
-                <button class="form-button-submit" type="submit">Order my Nike</button>
-            </div>
-            
-        </section>
-        
+                            <input type="text" class="addres-input" placeholder="Your City">
+                            <input type="text" class="addres-input" placeholder="Your Country">
+                            <input type="text" class="addres-input" placeholder="Your Adress">
+                        </form>
+                        <button class="form-button-submit" type="submit">Order my Nike</button>
+                    </div>
+
+        </section> -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-question">
+                    <ul class=" footer-list list">
+                        <li class="footer-item">Have a question?</li>
+                        <li class="footer-item">Have a proposal for cooperation?</li>
+                        <li class="footer-item">Advertising questions?</li>
+                    </ul>
+                    <ul class=" footer-list list">
+                        <li class="footer-item">ColoRawe_support@gmail.com</li>
+                        <li class="footer-item">ColoRawe_Cooperation@gmail.com</li>
+                        <li class="footer-item">ColoRawe_Advertising@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-title">
+                    <ul class="footer-list list">
+                        <li class="footer__reserved">202 ColoRawe @All rights reserved</li>
+                        <li class="footer__country">United States</li>
+                    </ul>
+                    <div>
+                        <div class="footer_logo-div">
+                            <img src="./images/desktop/logo-desktop.png" alt="" class="footer_logo">
+                            <p class="footer__text">С&R</p>
+
+                        </div>
+                    </div>
+                </div>
+        </footer>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-question">
-                <ul class=" footer-list list">
-                    <li class="footer-item">Have a question?</li>
-                    <li class="footer-item">Have a proposal for cooperation?</li>
-                    <li class="footer-item">Advertising questions?</li>
-                </ul>
-                <ul class=" footer-list list">
-                    <li class="footer-item">ColoRawe_support@gmail.com</li>
-                    <li class="footer-item">ColoRawe_Cooperation@gmail.com</li>
-                    <li class="footer-item">ColoRawe_Advertising@gmail.com</li>
-                </ul>
-            </div>
-
-            <div class="footer-title">
-                <ul class="footer-list list">
-                    <li class="footer__reserved">202 ColoRawe @All rights reserved</li>
-                    <li class="footer__country">United States</li>
-                </ul>
-            <div>
-            <div class="footer_logo-div">
-                <img src="./images/desktop/logo-desktop.png" alt="" class="footer_logo">
-                <p class="footer__text">С&R</p>
-            </div>
-                <div class="footer_logo-div">
-                    <img src="./images/desktop/logo-desktop.png" alt="" class="footer_logo">
-                    <p class="footer__text">С&R</p>
-
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="./js/mobile-menu.js"></script>
 </body>
+
 </html>
