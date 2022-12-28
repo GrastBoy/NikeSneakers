@@ -1,4 +1,5 @@
 .header {
+<<<<<<< Updated upstream
     @media screen and (min-width: 360px) {
             display: none;
 
@@ -15,9 +16,18 @@
                 padding: 30px 165px;
                 top: 0;
         }
+=======
+    // margin-left: auto;
+    // margin-right: auto;
+    background: #012D63;
+    padding-top: 30px;
+    padding-bottom: 30px;
+>>>>>>> Stashed changes
 }
 .navigation{
     display: flex;
+    align-items: center;
+        justify-content: center;
 }
 
 .logo {
@@ -27,12 +37,12 @@
 
 .menu-header {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 152px;
 }
 .menu-header-item:not(:last-child){
     margin-right: 23px;
-}
-.menu-header-item:first-child{
-    margin-left: 152px;
 }
 
 .menu-header-link {

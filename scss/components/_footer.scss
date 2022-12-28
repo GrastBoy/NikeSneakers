@@ -1,0 +1,70 @@
+<<<<<<< Updated upstream
+=======
+.footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 164px;
+    padding-left: 164px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background-color: var(--footer-background-color);
+    max-height: 292px;
+}
+.footer-question{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid  #5E5E5E;
+    
+}
+
+.footer-list{
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--text-color);
+}
+.footer-item{
+    margin-bottom: 10px;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__reserved{
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--text-color);
+    margin-bottom: 7px;
+}
+.footer__country{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--text-color);
+}
+.footer_logo{
+    display: block;
+    width: 100px;
+    height: 81px;
+    margin-left: 20px;
+}
+.footer_logo-div{
+    position: relative;
+}
+.footer__text{
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: 10px;
+}
+>>>>>>> Stashed changes

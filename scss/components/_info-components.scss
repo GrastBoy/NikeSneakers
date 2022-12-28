@@ -1,0 +1,66 @@
+.info-components {
+    background-image: url(../../images/desktop/group-7-1.png);
+    display: block;
+
+    max-height: 665px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 82px;
+}
+
+.info-components__group {
+    position: relative;
+}
+
+.info-components__paragraph {
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    margin-left: 1061px;
+    margin-top: 11px;
+
+    color: #ffffff;
+}
+
+.info-components__sneaker {
+    // position: absolute;
+    margin-left: 159px;
+}
+
+.info-components__vektor {
+    position: absolute;
+    margin-top: -346px;
+    margin-left: 883px;
+}
+
+.info-components__zoom {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 774px;
+}
+
+.info-components__button {
+    width: 715px;
+    height: 85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #ffffff;
+    background: linear-gradient(91.33deg, #8e32c6 15.44%, #d600c0 69.67%);
+    border-radius: 15px;
+    border-style: inherit;
+    margin-left: 219px;
+    margin-top: 38px
+}
