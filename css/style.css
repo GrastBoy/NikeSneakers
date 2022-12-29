@@ -931,6 +931,301 @@ body {
   margin-left: 10px;
 }
 
+.backdrop-form.is-hiddenForm {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop-form {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 120;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  background-image: url(../../images/desktop/modal-flower.png), url(../../images/desktop/modal-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px, center;
+  background-size: 355px, cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  max-width: 1440px;
+  min-height: 1024px;
+  padding: 100px;
+}
+
+.form-logo {
+  position: absolute;
+  width: 160px;
+  height: 120px;
+  margin-left: 1125px;
+  margin-top: 21px;
+}
+
+.form-p {
+  position: absolute;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+  margin-left: 1150px;
+  margin-top: 106px;
+}
+
+.form-flower {
+  position: absolute;
+  margin-top: 614px;
+}
+
+.form-cards {
+  position: relative;
+  margin-left: -100px;
+}
+
+.form-payment {
+  position: absolute;
+  top: 101px;
+  left: 167px;
+  width: 575px;
+  background-color: rgba(168, 168, 168, 0.26);
+  padding-bottom: 22px;
+}
+
+.form-title {
+  padding-top: 15.11px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 16.12px;
+}
+
+.form-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-list {
+  margin-left: 19.1px;
+}
+
+.label-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 5.04px;
+}
+
+.card-number {
+  width: 194.01px;
+  height: 32.23px;
+  background: #2c4d74;
+  border: 1px solid #000000;
+  padding-top: 5.04px;
+  padding-left: 8.04px;
+  padding-bottom: 6.19px;
+  margin-bottom: 14px;
+}
+
+.name-date {
+  width: 66.35px;
+  height: 32.23px;
+  background: #2c4d74;
+  border: 1px solid #000000;
+  padding-top: 5.04px;
+  padding-left: 9.05px;
+  padding-bottom: 6.04px;
+  margin-bottom: 14px;
+}
+
+.secret-code {
+  width: 66.35px;
+  height: 32.23px;
+  background: #2c4d74;
+  border: 1px solid #000000;
+  padding-top: 5.04px;
+  padding-left: 18.09px;
+  padding-bottom: 6.04px;
+}
+
+.form-images {
+  display: flex;
+  margin-right: 22.12px;
+  margin-left: 65px;
+}
+
+.form-visa {
+  display: block;
+  background-color: #ffffff;
+  width: 125.66px;
+  height: 90.65px;
+  margin-right: 23px;
+  padding: 28px 10px;
+}
+
+.form-mastercard {
+  display: block;
+  background-color: #ffffff;
+  width: 125.66px;
+  height: 90.65px;
+  padding: 13px 10px;
+}
+
+.checkbox-input:checked {
+  width: 50px;
+  height: 50px;
+}
+
+.checkbox-input {
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.checkbox-icon {
+  content: "";
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: transform 250ms linear;
+}
+
+.checkbox-input:checked + .checkbox-icon {
+  transform: scale(1.2);
+  background-image: url(../../images/icons/modal-checkbox.svg);
+  background-color: blue;
+  border-color: blue;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 30px;
+  bottom: 25px;
+  position: absolute;
+}
+
+.checkbox-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  transition: transform 250ms linear;
+}
+
+.checkbox-input:checked ~ .checkbox-text {
+  transform: translateX(20px);
+}
+
+.final-all {
+  position: absolute;
+  bottom: 300px;
+  left: 162px;
+}
+
+.final-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  width: 175px;
+  height: 45px;
+  margin-left: 200px;
+  margin-bottom: 11px;
+}
+
+.order-list {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 10px 108px 5px 22px;
+  margin-bottom: 28px;
+  min-width: 580px;
+  height: 50px;
+}
+
+.order-list::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #959595;
+}
+
+.form-nike {
+  position: absolute;
+  margin-left: 175px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 26px 7px 24px 8px;
+}
+
+.form-price {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-left: 260px;
+  margin-top: 163px;
+}
+
+.form-button {
+  width: 255px;
+  height: 70px;
+  background: #8e32c6;
+  border-radius: 10px;
+  border-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 858px;
+  margin-left: 327px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
