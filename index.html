@@ -38,7 +38,7 @@
             </nav>
         </div>
     </header>
-    
+
     <!-- menu mobile -->
     <div class="mobile-menu" data-menu>
         <ul class="menu-mobile list">
@@ -81,7 +81,7 @@
                         Good luck finding your way in the world of custom sneakers.
                     </p>
                 </div>
-                <button class="hero__button" data-modal-open>Buy my Nike</button>
+                <button type="button" class="hero__button" data-form-open>Buy my Nike</button>
                 <div class="hero__img">
                     <img class="hero__img-nike" src="./images/desktop/sneakers-nike-desktop.png" alt="">
                 </div>
@@ -112,6 +112,7 @@
 
             </div>
         </section>
+
         <section class="echoes">
             <div class="container">
                 <h2 class="echoes_title">Reviews</h2>
@@ -184,12 +185,11 @@
                             <input type="text" class="addres-input" placeholder="Your Country">
                             <input type="text" class="addres-input" placeholder="Your Adress">
                         </form>
-                        <button class="form-button-submit" type="submit">Order my Nike</button>
+                        <button class="form-button-submit" type="submit" data-modal-open>Order my Nike</button>
                     </div>
-
         </section>
 
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="container">
                 <div class="footer-question">
                     <ul class=" footer-list list">
@@ -219,6 +219,72 @@
                 </div>
 
         </footer>
+
+        <!-- desktop-2 -->
+
+        <div class="backdrop-form is-hiddenForm" data-form>
+            <div class="form">
+                <img src="./images/desktop/modal-logo.png" alt="nike" class="form-logo">
+                <p class="form-p">C&R</p>
+                <!-- Payment -->
+                <div class="form-cards">
+                    <div class="form-payment">
+                        <h2 class="form-title">Payment card</h2>
+                        <div class="form-all">
+                            <div>
+                                <form class="form-list">
+                                    <label>
+                                        <p class="label-p">Card number</p>
+                                        <input type="number" name="number" placeholder="1111 1111 1111 1111"
+                                            class="card-number">
+                                    </label>
+
+                                    <label>
+                                        <p class="label-p">Date of ending</p>
+                                        <input type="number" name="number" placeholder="01/01" class="name-date">
+                                    </label>
+
+                                    <label>
+                                        <p class="label-p">Secret code</p>
+                                        <input type="number" name="number" placeholder="001" class="secret-code">
+                                    </label>
+                                </form>
+                            </div>
+                            <!-- Images -->
+                            <div class="form-images">
+                                <img src="images/desktop/modal-visa.png" alt="visa" class="form-visa">
+                                <img src="images/desktop/modal-mastercard.png" alt="mastercard" class="form-mastercard">
+                            </div>
+                            <!-- Checkbox -->
+                            <div>
+                                <label class="checkbox-label">
+                                    <input class="checkbox-input" type="checkbox" name="topic" value="js" />
+                                    <span class="checkbox-icon"></span>
+                                    <span class="checkbox-text">Remember data</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="final-all">
+                        <h2 class="final-p">Final Order</h2>
+                        <form>
+                            <input type="text" name="text" placeholder="Write your first name and last name "
+                                class="order-list">
+                            <input type="text" name="text" placeholder="Write your foot size" class="order-list">
+                        </form>
+                        <!-- Nike -->
+                        <img src="images/desktop/modal-nike.png" alt="nike" class="form-nike">
+                        <p class="form-price">299$</p>
+                    </div>
+
+                    <button class="form-button" type="submit" data-form-close>Buy my Nike</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- desktop-3 -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <div class="container">
@@ -231,11 +297,11 @@
             </div>
         </div>
 
-        </footer> -->
 
     </main>
 
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/form.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
