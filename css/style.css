@@ -166,13 +166,13 @@ body {
   .hero {
     background-image: url(../../images/mobile/hero-mobile.png);
     height: 737px;
+    padding-top: 33px;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero {
     display: block;
     position: relative;
-    z-index: 2;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,9 +183,15 @@ body {
   }
 }
 
-.composition__logo-text {
-  margin-left: 170px;
-  position: relative;
+@media screen and (min-width: 360px) {
+  .composition__logo-text {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 360px) {
+  .composition__logo-text {
+    margin-left: 170px;
+  }
 }
 
 .composition__logo {
@@ -205,7 +211,6 @@ body {
 }
 
 .composition__text {
-  position: absolute;
   font-family: "PT Serif";
   color: var(--text-color);
 }
@@ -287,6 +292,7 @@ body {
   .hero-text__third-title {
     font-size: 18px;
     line-height: 21px;
+    width: 305px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -297,8 +303,6 @@ body {
 }
 
 .hero__button {
-  margin-left: 157px;
-  margin-top: 41px;
   padding: 20px 61px;
   display: block;
   border: none;
@@ -310,6 +314,20 @@ body {
 }
 .hero__button:hover, .hero__button:focus {
   background-color: var(--hover-button-color);
+}
+@media screen and (min-width: 360px) {
+  .hero__button {
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px;
+    margin-top: 41px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__button {
+    margin-left: 157px;
+    margin-top: 41px;
+  }
 }
 
 .hero__img {
@@ -329,7 +347,7 @@ body {
   .hero__img-nike {
     width: 840px;
     left: 500px;
-    top: -524px;
+    top: -400px;
   }
 }
 
@@ -350,7 +368,7 @@ body {
   width: 45px;
   height: 25px;
   margin-left: 250px;
-  margin-top: 44px;
+  margin-top: 20px;
 }
 
 .menu-close {
@@ -387,7 +405,7 @@ body {
 }
 
 .menu-mobile {
-  padding-top: 60px;
+  padding-top: 90px;
 }
 
 .menu-mobile_item {
