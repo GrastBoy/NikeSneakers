@@ -38,6 +38,7 @@
             </nav>
         </div>
     </header>
+    
     <!-- menu mobile -->
     <div class="mobile-menu" data-menu>
         <ul class="menu-mobile list">
@@ -79,7 +80,7 @@
                         Good luck finding your way in the world of custom sneakers.
                     </p>
                 </div>
-                <button class="hero__button">Buy my Nike</button>
+                <button class="hero__button" data-modal-open>Buy my Nike</button>
                 <div class="hero__img">
                     <img class="hero__img-nike" src="./images/desktop/sneakers-nike-desktop.png" alt="">
                 </div>
@@ -198,9 +199,21 @@
                     </div>
                 </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <div class="container">
+                    <img class="logo-form" src="./images/desktop/modal-logo.png" alt="Логотип">
+                    <p class="logo-form-text">С&R</p>
+                    <h1 class="logo-title-form">Thank you for purchasing<br>
+                        the sneakers of your dreams.</h1>
+                    <button type="submit" class="button-form" data-modal-close>Back to main page</button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

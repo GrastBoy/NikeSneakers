@@ -906,4 +906,123 @@ body {
   line-height: 32px;
   color: #fff;
   margin-left: 10px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 120;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  background-image: url(../../images/desktop/flowers-right-2.png), url(../../images/desktop/flowers-right-4.png), url(../../images/desktop/flowers-left-1.png), url(../../images/desktop/flowers-left-3.png), url(../../images/desktop/nike.png), url(../../images/desktop/bg-modal-hero.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 0px, top 192px right 0px, bottom 0px left 0px, top 50px left 0px, bottom 30px center, center;
+  background-size: 580px, 260px, 480px, 280px, 855px, cover;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  max-width: 1440px;
+  min-height: 1024px;
+}
+@media screen and (min-width: 360px) {
+  .modal {
+    background-position: bottom 0px right 0px, top 765px right 0px, bottom 0px left 0px, top 758px left 0px, bottom 40px center, center;
+    background-size: 150px, 97px, 139px, 122px, 310px, cover;
+    padding-top: 200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .modal {
+    max-width: 1440px;
+    background-position: bottom 0px right 0px, top 192px right 0px, bottom 0px left 0px, top 50px left 0px, bottom 30px center, center;
+    background-size: 580px, 260px, 480px, 280px, 855px, cover;
+    padding-top: 50px;
+  }
+}
+
+.button-form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  font-size: 24px;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: #8E32C6;
+  color: white;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  padding: 20px 31px;
+}
+
+.logo-title-form {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logo-form {
+  margin-left: 1122px;
+  display: block;
+}
+@media screen and (min-width: 360px) {
+  .logo-form {
+    margin-top: 80px;
+    margin-left: 242px;
+    width: 96px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .logo-form {
+    margin-top: 6px;
+    margin-left: 1122px;
+    display: block;
+    width: 160px;
+  }
+}
+
+.logo-form-text {
+  font-family: "PT Serif";
+  font-style: normal;
+  color: #FFFFFF;
+  display: block;
+}
+@media screen and (min-width: 360px) {
+  .logo-form-text {
+    margin-left: 260px;
+    font-size: 24px;
+    margin-top: -15px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .logo-form-text {
+    margin-top: -25px;
+    margin-left: 1147px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+  }
 }/*# sourceMappingURL=style.css.map */
