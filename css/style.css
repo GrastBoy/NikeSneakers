@@ -172,13 +172,13 @@ body {
 @media screen and (min-width: 1440px) {
   .hero {
     display: block;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../images/desktop/background-hero-desktop.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 948px;
   }
 }
 
