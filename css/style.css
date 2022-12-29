@@ -425,11 +425,31 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background-image: url(../../images/desktop/bg-adventage.png);
-  max-height: 606px;
+  background-image: url(../../images/mobile/bg-adventage-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media screen and (min-width: 360px) {
+  .adventage {
+    background-image: url(../../images/mobile/bg-adventage-mobile.png);
+  }
+}
+@media screen and (min-width: 360px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (min-resolution: 2dppx) {
+  .adventage {
+    background-image: url(../../images/mobile/bg-adventage-mobile@2x.png);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .adventage {
+    max-height: 606px;
+    background-image: url(../../images/desktop/bg-adventage.png);
+  }
+}
+@media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (min-resolution: 192dpi), screen and (min-width: 1440px) and (min-resolution: 2dppx) {
+  .adventage {
+    background-image: url(../../images/desktop/bg-adventage@2x.png);
+  }
 }
 
 .adventage__list {
