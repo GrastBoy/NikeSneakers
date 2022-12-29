@@ -2,12 +2,13 @@
 @media screen and (min-width: 360px) {
         background-image: url(../../images/mobile/hero-mobile.png);
         height: 737px;
+        padding-top: 33px;
     }
 
     @media screen and (min-width: 1440px) {
         display: block;
             position: relative;
-            z-index: 2;
+            // z-index: 2;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -20,8 +21,13 @@
 }
 
 .composition__logo-text{
-    margin-left: 170px;
-    position: relative;
+    @media screen and (min-width: 360px){
+margin-left: 10px;
+    }
+@media screen and (min-width: 360px){
+margin-left: 170px;
+        }
+    
 }
 
 .composition__logo {
@@ -41,7 +47,6 @@
 }
 
 .composition__text {
-    position: absolute;
     font-family: 'PT Serif';
     color: var(--text-color);
 
@@ -49,8 +54,7 @@
         margin-left: -130px;
         font-size: 24px;
         line-height: 32px;
-
-        
+  
         }
     
         @media screen and (min-width: 1440px) {
@@ -84,7 +88,8 @@
 
         @media screen and (min-width: 360px) {
             font-size: 64px;
-                line-height: 85px;
+            line-height: 85px;
+            
                 
             }
         
@@ -124,6 +129,7 @@
     @media screen and (min-width: 360px) {
             font-size: 18px;
             line-height: 21px;
+            width: 305px;
         }
     
         @media screen and (min-width: 1440px) {
@@ -135,8 +141,7 @@
 }
 
 .hero__button {
-    margin-left: 157px;
-    margin-top: 41px;
+   
     padding: 20px 61px;
     display: block;
     border: none;
@@ -147,12 +152,21 @@
     background-color: var(--hero-button-color);
     color: var(--text-color);
 
-
-
     &:hover,
     &:focus {
         background-color: var(--hover-button-color);
     }
+
+    @media screen and (min-width: 360px){
+        position: absolute;
+            z-index: 2;
+            margin-left: 50px;
+            margin-top: 41px;
+         }
+    @media screen and (min-width: 1440px){
+    margin-left: 157px;
+    margin-top: 41px;
+        }
 }
 
 .hero__img {
@@ -170,9 +184,9 @@
     }
     
         @media screen and (min-width: 1440px) {
-            width: 840px;
-         left: 500px;
-         top: -524px;
+        width: 840px;
+        left: 500px;
+        top: -400px;
         }   
 
 }
