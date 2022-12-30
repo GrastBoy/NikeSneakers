@@ -2,7 +2,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-image: url(../../images/mobile/bg-adventage-mobile.png);
+    background-image: url(../images/mobile/bg-adventage-mobile.png);
 min-width: 1440px;
     min-height: 605px;
 
@@ -13,14 +13,14 @@ min-width: 1440px;
 
         @media screen and (min-width: 360px) {
                 background-image: 
-                    url(../../images/mobile/bg-adventage-mobile.png);
+                    url(../images/mobile/bg-adventage-mobile.png);
         
                 @media (min-device-pixel-ratio: 2),
                 (-webkit-min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image: 
-                        url(../../images/mobile/bg-adventage-mobile@2x.png);
+                        url(../images/mobile/bg-adventage-mobile@2x.png);
                 }
             }
         
@@ -28,14 +28,14 @@ min-width: 1440px;
             max-height: 606px;
         
                 background-image: 
-                    url(../../images/desktop/background-adventage-desktop.png);
+                    url(../images/desktop/background-adventage-desktop.png);
         
                 @media (min-device-pixel-ratio: 2),
                 (-webkit-min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image:
-                        url(../../images/desktop/background-adventage-desktop@2x.png);
+                        url(../images/desktop/background-adventage-desktop@2x.png);
                 }
             }
         }

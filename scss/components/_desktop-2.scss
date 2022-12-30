@@ -16,8 +16,8 @@
 }
 
 .form {
-    background-image: url(../../images/desktop/modal-flower.png),
-        url(../../images/desktop/modal-img.png);
+    background-image: url(../images/desktop/modal-flower.png),
+        url(../images/desktop/modal-img.png);
     background-repeat: no-repeat;
     background-position: bottom 0px left 0px, center;
     background-size: 355px, cover;
@@ -198,7 +198,7 @@
 .checkbox-input:checked+.checkbox-icon {
     transform: scale(1.2);
 
-    background-image: url(../../images/icons/modal-checkbox.svg);
+    background-image: url(../images/icons/modal-checkbox.svg);
     background-color: blue;
     border-color: blue;
     background-size: contain;
