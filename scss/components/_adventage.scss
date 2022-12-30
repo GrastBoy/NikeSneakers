@@ -28,14 +28,14 @@ min-width: 1440px;
             max-height: 606px;
         
                 background-image: 
-                    url(../../images/desktop/bg-adventage.png);
+                    url(../../images/desktop/background-adventage-desktop.png);
         
                 @media (min-device-pixel-ratio: 2),
                 (-webkit-min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image:
-                        url(../../images/desktop/bg-adventage@2x.png);
+                        url(../../images/desktop/background-adventage-desktop@2x.png);
                 }
             }
         }
