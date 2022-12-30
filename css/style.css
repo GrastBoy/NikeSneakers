@@ -173,7 +173,7 @@ body {
 
 @media screen and (min-width: 360px) {
   .hero {
-    background-image: url(../../images/mobile/hero-mobile.png);
+    background-image: url(../images/mobile/hero-mobile.png);
     height: 737px;
     padding-top: 33px;
   }
@@ -451,7 +451,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background-image: url(../../images/mobile/bg-adventage-mobile.png);
+  background-image: url(../images/mobile/bg-adventage-mobile.png);
   min-width: 1440px;
   min-height: 605px;
   background-repeat: no-repeat;
@@ -460,23 +460,23 @@ body {
 }
 @media screen and (min-width: 360px) {
   .adventage {
-    background-image: url(../../images/mobile/bg-adventage-mobile.png);
+    background-image: url(../images/mobile/bg-adventage-mobile.png);
   }
 }
 @media screen and (min-width: 360px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (min-resolution: 2dppx) {
   .adventage {
-    background-image: url(../../images/mobile/bg-adventage-mobile@2x.png);
+    background-image: url(../images/mobile/bg-adventage-mobile@2x.png);
   }
 }
 @media screen and (min-width: 1440px) {
   .adventage {
     max-height: 606px;
-    background-image: url(../../images/desktop/background-adventage-desktop.png);
+    background-image: url(../images/desktop/background-adventage-desktop.png);
   }
 }
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (min-resolution: 192dpi), screen and (min-width: 1440px) and (min-resolution: 2dppx) {
   .adventage {
-    background-image: url(../../images/desktop/background-adventage-desktop@2x.png);
+    background-image: url(../images/desktop/background-adventage-desktop@2x.png);
   }
 }
 
@@ -492,7 +492,7 @@ body {
 }
 
 .info-components {
-  background-image: url(../../images/desktop/group-7-1.png);
+  background-image: url(../images/desktop/group-7-1.png);
   display: block;
   min-width: 1440px;
   min-height: 665px;
@@ -594,7 +594,7 @@ body {
   padding-bottom: 70px;
   min-width: 1440px;
   min-height: 522px;
-  background-image: url(../../images/desktop/bg-flowers.png), url(../../images/desktop/group-3-desktop.jpeg);
+  background-image: url(../images/desktop/bg-flowers.png), url(../images/desktop/group-3-desktop.jpeg);
   background-repeat: no-repeat;
   background-position: bottom 0px left 0px, center;
   background-size: 360px, cover;
@@ -953,7 +953,7 @@ body {
 }
 
 .form {
-  background-image: url(../../images/desktop/modal-flower.png), url(../../images/desktop/modal-img.png);
+  background-image: url(../images/desktop/modal-flower.png), url(../images/desktop/modal-img.png);
   background-repeat: no-repeat;
   background-position: bottom 0px left 0px, center;
   background-size: 355px, cover;
@@ -1125,7 +1125,7 @@ body {
 
 .checkbox-input:checked + .checkbox-icon {
   transform: scale(1.2);
-  background-image: url(../../images/icons/modal-checkbox.svg);
+  background-image: url(../images/icons/modal-checkbox.svg);
   background-color: blue;
   border-color: blue;
   background-size: contain;
@@ -1248,7 +1248,7 @@ body {
 }
 
 .modal {
-  background-image: url(../../images/desktop/flowers-right-2.png), url(../../images/desktop/flowers-right-4.png), url(../../images/desktop/flowers-left-1.png), url(../../images/desktop/flowers-left-3.png), url(../../images/desktop/nike.png), url(../../images/desktop/bg-modal-hero.png);
+  background-image: url(../images/desktop/flowers-right-2.png), url(../images/desktop/flowers-right-4.png), url(../images/desktop/flowers-left-1.png), url(../images/desktop/flowers-left-3.png), url(../images/desktop/nike.png), url(../images/desktop/bg-modal-hero.png);
   background-repeat: no-repeat;
   background-position: bottom 0px right 0px, top 192px right 0px, bottom 0px left 0px, top 50px left 0px, bottom 30px center, center;
   background-size: 580px, 260px, 480px, 280px, 855px, cover;
