@@ -471,12 +471,12 @@ body {
 @media screen and (min-width: 1440px) {
   .adventage {
     max-height: 606px;
-    background-image: url(../../images/desktop/bg-adventage.png);
+    background-image: url(../../images/desktop/background-adventage-desktop.png);
   }
 }
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (min-resolution: 192dpi), screen and (min-width: 1440px) and (min-resolution: 2dppx) {
   .adventage {
-    background-image: url(../../images/desktop/bg-adventage@2x.png);
+    background-image: url(../../images/desktop/background-adventage-desktop@2x.png);
   }
 }
 
