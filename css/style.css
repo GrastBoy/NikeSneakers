@@ -452,6 +452,8 @@ body {
   margin-right: auto;
   display: block;
   background-image: url(../../images/mobile/bg-adventage-mobile.png);
+  min-width: 1440px;
+  min-height: 605px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -492,6 +494,8 @@ body {
 .info-components {
   background-image: url(../../images/desktop/group-7-1.png);
   display: block;
+  min-width: 1440px;
+  min-height: 665px;
   max-height: 665px;
   margin-left: auto;
   margin-right: auto;
@@ -588,7 +592,8 @@ body {
   display: block;
   padding-top: 35px;
   padding-bottom: 70px;
-  height: 522px;
+  min-width: 1440px;
+  min-height: 522px;
   background-image: url(../../images/desktop/bg-flowers.png), url(../../images/desktop/group-3-desktop.jpeg);
   background-repeat: no-repeat;
   background-position: bottom 0px left 0px, center;
@@ -939,7 +944,6 @@ body {
 
 .backdrop-form {
   position: fixed;
-  overflow: auto;
   top: 0;
   left: 0;
   width: 100%;

@@ -5,8 +5,9 @@
     display: block;
     padding-top: 35px;
     padding-bottom: 70px;
-    height: 522px;
-
+    min-width: 1440px;
+    min-height: 522px;
+    
     background-image: url(../../images/desktop/bg-flowers.png), url(../../images/desktop/group-3-desktop.jpeg);
     background-repeat: no-repeat;
     background-position: bottom 0px left 0px, center;
