@@ -452,7 +452,6 @@ body {
   margin-right: auto;
   display: block;
   background-image: url(../images/mobile/bg-adventage-mobile.png);
-  min-width: 1440px;
   min-height: 605px;
   background-repeat: no-repeat;
   background-position: center;
@@ -480,15 +479,32 @@ body {
   }
 }
 
-.adventage__list {
-  display: flex;
-  justify-content: center;
-  padding-top: 55px;
-  padding-bottom: 80px;
+@media screen and (min-width: 360px) {
+  .adventage__list {
+    display: inline;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .adventage__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 80px;
+  }
 }
 
-.adventage__item:not(:last-child) {
-  margin-right: 101px;
+@media screen and (min-width: 360px) {
+  .adventage_item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .adventage_item {
+    margin-right: 101px;
+  }
 }
 
 .info-components {
