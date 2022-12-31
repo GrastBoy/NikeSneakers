@@ -938,55 +938,137 @@ body {
 
 .footer {
   display: block;
-  padding-top: 45px;
-  padding-bottom: 50px;
   background-color: var(--footer-background-color);
+}
+@media screen and (min-width: 360px) {
+  .footer {
+    height: 388px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    height: 292px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
 }
 
 .footer-question {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  color: var(--text-color);
   border-bottom: 1px solid #5E5E5E;
+}
+@media screen and (min-width: 360px) {
+  .footer-question {
+    padding-top: 10px;
+    margin-bottom: 12px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 }
 
 .footer-list {
-  font-size: 24px;
-  line-height: 28px;
   color: var(--text-color);
 }
-
-.footer-item {
-  margin-bottom: 10px;
+@media screen and (min-width: 360px) {
+  .footer-list {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-list {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
-.footer-title {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+@media screen and (min-width: 360px) {
+  .footer-item {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-item {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-email {
+  color: var(--text-color);
+}
+@media screen and (min-width: 360px) {
+  .footer-email {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .footer-title {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 }
 
 .footer__reserved {
+  color: var(--text-color);
   font-size: 18px;
   line-height: 21px;
-  color: var(--text-color);
-  margin-bottom: 7px;
 }
-
+@media screen and (min-width: 360px) {
+  .footer__reserved {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 .footer__country {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
   color: var(--text-color);
+}
+@media screen and (min-width: 360px) {
+  .footer__country {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__country {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 .footer_logo {
   display: block;
-  width: 100px;
-  height: 81px;
-  margin-left: 20px;
+}
+@media screen and (min-width: 360px) {
+  .footer_logo {
+    width: 65px;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer_logo {
+    margin-top: -10px;
+    width: 108px;
+  }
 }
 
 .footer_logo-div {
@@ -996,15 +1078,23 @@ body {
 .footer__text {
   display: block;
   position: absolute;
-  top: 55px;
-  left: 30px;
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: #fff;
-  margin-left: 10px;
+  color: var(--text-color);
+}
+@media screen and (min-width: 360px) {
+  .footer__text {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__text {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .backdrop-form.is-hiddenForm {
