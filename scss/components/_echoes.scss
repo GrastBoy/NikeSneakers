@@ -10,7 +10,7 @@
         background-position: bottom 0px left 0px, center;
         background-size: 175px, cover;
         max-height: 425px;
-        padding-top: 55px;
+        // padding-top: 55px;
         padding-bottom: 175px;
         padding-left: 50px;
         }
@@ -67,9 +67,9 @@
     display: block;
     border-radius: 15px;
     @media screen and (min-width: 360px) {
-          width: 175px;
+          width: 172px;
           padding: 9px 6px 10px 10px; 
-          height: 175px; 
+          height: 209px; 
         }
     
         @media screen and (min-width: 1440px) {
