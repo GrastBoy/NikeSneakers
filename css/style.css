@@ -614,7 +614,6 @@ body {
     background-position: bottom 0px left 0px, center;
     background-size: 175px, cover;
     max-height: 425px;
-    padding-top: 55px;
     padding-bottom: 175px;
     padding-left: 50px;
   }
@@ -669,9 +668,9 @@ body {
 }
 @media screen and (min-width: 360px) {
   .fon {
-    width: 175px;
+    width: 172px;
     padding: 9px 6px 10px 10px;
-    height: 175px;
+    height: 209px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1050,6 +1049,7 @@ body {
   .footer__reserved {
     font-size: 14px;
     line-height: 16px;
+    margin-bottom: 12px;
   }
 }
 .footer__country {
@@ -1120,6 +1120,7 @@ body {
 }
 
 .backdrop-form {
+  overflow: auto;
   position: fixed;
   top: 0;
   left: 0;
