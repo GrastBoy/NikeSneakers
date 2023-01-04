@@ -3,55 +3,63 @@
     margin-right: auto;
     display: block;
     background-image: url(../images/mobile/bg-adventage-mobile.png);
-min-width: 1440px;
+    //   min-width: 1440px;
     min-height: 605px;
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
+    @media screen and (min-width: 360px) {
+        background-image: url(../images/mobile/bg-adventage-mobile.png);
 
-        @media screen and (min-width: 360px) {
-                background-image: 
-                    url(../images/mobile/bg-adventage-mobile.png);
-        
-                @media (min-device-pixel-ratio: 2),
-                (-webkit-min-device-pixel-ratio: 2),
-                (min-resolution: 192dpi),
-                (min-resolution: 2dppx) {
-                    background-image: 
-                        url(../images/mobile/bg-adventage-mobile@2x.png);
-                }
-            }
-        
-            @media screen and (min-width: 1440px) {
-            max-height: 606px;
-        
-                background-image: 
-                    url(../images/desktop/background-adventage-desktop.png);
-        
-                @media (min-device-pixel-ratio: 2),
-                (-webkit-min-device-pixel-ratio: 2),
-                (min-resolution: 192dpi),
-                (min-resolution: 2dppx) {
-                    background-image:
-                        url(../images/desktop/background-adventage-desktop@2x.png);
-                }
-            }
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/mobile/bg-adventage-mobile@2x.png);
         }
+    }
 
+    @media screen and (min-width: 1440px) {
+        max-height: 606px;
 
+        background-image: url(../images/desktop/background-adventage-desktop.png);
 
-
-
-
-.adventage__list {
-    display: flex;
-    justify-content: center;
-    padding-top: 55px;
-    padding-bottom: 80px;
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/desktop/background-adventage-desktop@2x.png);
+        }
+    }
 }
 
-.adventage__item:not(:last-child) {
-    margin-right: 101px;
+.adventage__list {
+    @media screen and (min-width: 360px) {
+        display: inline;
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 80px;
+    }
+}
+
+// .adventage__item:not(:last-child) {
+//   margin-right: 0px;
+// }
+.adventage_item {
+    @media screen and (min-width: 360px) {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 101px;
+    }
 }
