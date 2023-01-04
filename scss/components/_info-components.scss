@@ -2,8 +2,7 @@
     background-image: url(../images/desktop/group-7-1.png);
     display: block;
     min-width: 1440px;
-        min-height: 665px;
-
+    min-height: 665px;
     max-height: 665px;
     margin-left: auto;
     margin-right: auto;
@@ -12,6 +11,27 @@
     background-size: cover;
     padding-top: 45px;
     padding-bottom: 82px;
+
+    @media screen and (min-width: 360px) {
+        background-image: url(../images/mobile/flower1-mobile.png), url(../images/mobile/flower2-mobile.png), url(../images/mobile/bg-info-mobile.png);
+        min-width: 360px;
+        min-height: 417px;
+        background-repeat: no-repeat;
+        background-size: 96px, 161.97px, cover;
+        background-position: bottom 0px left 0px, bottom 0px right 0px, center;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        background-image: url(../images/desktop/group-7-1.png);
+        min-width: 1440px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom 0px left 0px center;
+
+
+
+    }
 }
 
 .info-components__group {
@@ -20,34 +40,85 @@
 
 .info-components__paragraph {
     position: absolute;
-    width: 215px;
-    height: 40px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 37px;
-    margin-left: 1061px;
-    margin-top: 11px;
 
     color: #ffffff;
+
+    @media screen and (min-width: 360px) {
+        font-size: 14px;
+        line-height: 19px;
+        top: 230px;
+        left: 90px
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 28px;
+        line-height: 37px;
+        left: 1061px;
+        top: 11px;
+
+    }
 }
 
 .info-components__sneaker {
-    // position: absolute;
+    // position: absolute; 
     margin-left: 159px;
+
+    @media screen and (min-width: 360px) {
+        width: 297px;
+        top: -21px;
+        margin-left: 30px;
+        margin-top: -21px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 835px;
+        margin-left: 159px;
+
+
+    }
+
 }
 
 .info-components__vektor {
     position: absolute;
-    margin-top: -346px;
-    margin-left: 883px;
+
+
+    @media screen and (min-width: 360px) {
+        width: 185px;
+        height: 145px;
+        margin-top: -34px;
+        margin-left: 88px;
+        transform: rotate(180deg);
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 403px;
+        height: 183px;
+        margin-top: -346px;
+        margin-left: 883px;
+        transform: rotate(-1deg);
+    }
 }
 
 .info-components__zoom {
     position: absolute;
-    margin-top: -180px;
-    margin-left: 774px;
+
+
+    @media screen and (min-width: 360px) {
+        width: 46.6px;
+        margin-top: -65px;
+        margin-left: 245px;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 130px;
+        margin-top: -180px;
+        margin-left: 774px;
+    }
 }
 
 .info-components__button {
@@ -55,21 +126,13 @@
     background: linear-gradient(91.33deg, #8E32C6 15.44%, #D600C0 69.67%);
 
     border: none;
-    border-radius: 15px;
     cursor: pointer;
     color: #FFFFFF;
 
     position: relative;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 33px;
-        width: 715px;
+    font-family: 'Roboto';
+    font-style: normal;
 
-        padding: 26px 64px;
-        margin-left: 220px;
-        margin-top: 10px;
 
     &::before,
     &::after {
@@ -99,6 +162,28 @@
         left: 8px;
         width: calc(100% - 16px);
         background: linear-gradient(91.33deg, rgba(142, 50, 198, 0.6) 15.44%, rgba(214, 0, 192, 0.6) 69.67%);
-       }
-    } 
-    
+    }
+
+    @media screen and (min-width: 360px) {
+        width: 305px;
+        height: 37px;
+        font-size: 14px;
+        line-height: 16px;
+        padding:11 3 10 9;
+            border-radius: 5px;
+            bottom: -185px;
+            left: 30px;
+        }
+        
+        @media screen and (min-width: 1440px) {
+            width: 715px;
+            height: 85px;
+            font-size: 28px;
+            line-height: 33px;
+            padding: 26px 64px;
+            left: 220px;
+            top: 10px;
+            border-radius: 15px;
+        }
+        
+        }
