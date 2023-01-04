@@ -932,6 +932,10 @@ body {
   color: #D8D8D8;
 }
 
+.user {
+  border-radius: 50px;
+}
+
 .order {
   display: block;
   margin-left: auto;
