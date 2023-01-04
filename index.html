@@ -125,7 +125,13 @@
                         <p class="echoes__time">25.11</p>
                         <div class="echoes__blok">
                             <div class="echoes__blok1">
-                                <img src="./images/desktop/ellipse1-desktop.png" alt="">
+                            <picture>
+                                <source srcset="./images/desktop/user1-desktop.jpg 1x,./images/desktop/user1-desktop.jpg@2x" type="image/jpeg"
+                                    media="(max-width: 1440px)" />
+                                <source srcset="./images/mobile/user1-mobile 1x, ./images/mobile/user1-mobile@2x.jpg 2x" type="image/jpeg"
+                                    media="(max-width: 360px)" />
+                                <img class="user" src="./images/desktop/user1-desktop.jpg" alt="" width="31">
+                            </picture>
                             </div>
 
                             <div class="echoes__blok2">
