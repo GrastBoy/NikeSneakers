@@ -928,21 +928,19 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/desktop/background-order-desktop.png);
-  max-width: 1440px;
-  max-height: 510px;
-  max-width: 1440px;
-  max-height: 510px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding-top: 21px;
   padding-bottom: 38px;
 }
 @media screen and (min-width: 360px) {
   .order {
-    width: 360px;
+    background-image: url(../images/mobile/bg-order-mobile.png);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .order {
+    background-image: url(../images/desktop/background-order-desktop.png);
   }
 }
 
@@ -968,8 +966,6 @@ body {
   background: var(--text-color);
   border: 1px solid #000000;
   border-radius: 50px;
-  width: 580px;
-  height: 50px;
   padding: 0 0 0 25px;
 }
 @media screen and (min-width: 360px) {
@@ -978,21 +974,29 @@ body {
     height: 35px;
   }
 }
-
-.email-input {
-  width: 690px;
-  height: 60px;
+@media screen and (min-width: 1440px) {
+  .addres-input {
+    width: 580px;
+    height: 50px;
+  }
 }
+
 @media screen and (min-width: 360px) {
   .email-input {
     width: 242px;
     height: 35px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .email-input {
+    width: 690px;
+    height: 60px;
+  }
+}
 
 .email-button {
   position: absolute;
-  left: 809px;
+  left: 781px;
   top: 5px;
   opacity: 0.5;
   border: 1px solid #000000;
@@ -1009,14 +1013,16 @@ body {
     display: none;
   }
 }
+@media screen and (min-width: 1440px) {
+  .email-button {
+    display: block;
+  }
+}
 
 .form-button-submit {
   display: block;
   margin: 0 auto;
-  width: 248px;
-  height: 68px;
   background-color: var(--hero-button-color);
-  border-radius: 16px;
   border: none;
 }
 .form-button-submit:hover, .form-button-submit:focus {
@@ -1027,6 +1033,13 @@ body {
     width: 212px;
     height: 51px;
     border-radius: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form-button-submit {
+    border-radius: 16px;
+    width: 248px;
+    height: 68px;
   }
 }
 
