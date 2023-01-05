@@ -69,6 +69,8 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 @media screen and (min-width: 360px) {
   .container {
@@ -452,13 +454,13 @@ body {
   margin-right: auto;
   display: block;
   background-image: url(../images/mobile/bg-adventage-mobile.png);
-  min-height: 605px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media screen and (min-width: 360px) {
   .adventage {
+    min-height: 1448px;
     background-image: url(../images/mobile/bg-adventage-mobile.png);
   }
 }
@@ -469,7 +471,9 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .adventage {
-    max-height: 606px;
+    min-height: 606px;
+    padding-top: 55px;
+    padding-bottom: 80px;
     background-image: url(../images/desktop/background-adventage-desktop.png);
   }
 }
@@ -488,22 +492,6 @@ body {
   .adventage__list {
     display: flex;
     justify-content: space-between;
-    padding-top: 55px;
-    padding-bottom: 80px;
-  }
-}
-
-@media screen and (min-width: 360px) {
-  .adventage_item {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 0;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .adventage_item {
-    margin-right: 101px;
   }
 }
 
@@ -672,7 +660,6 @@ body {
     padding: 11 3 10 9;
     border-radius: 5px;
     bottom: -185px;
-    left: 30px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -701,8 +688,8 @@ body {
     background-position: bottom 0px left 0px, center;
     background-size: 175px, cover;
     max-height: 425px;
-    padding-bottom: 175px;
-    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -738,6 +725,7 @@ body {
 @media screen and (min-width: 360px) {
   .echoes-list__list {
     display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1440px) {
