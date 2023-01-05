@@ -10,9 +10,8 @@
         background-position: bottom 0px left 0px, center;
         background-size: 175px, cover;
         max-height: 425px;
-        // padding-top: 55px;
-        padding-bottom: 175px;
-        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         }
     
         @media screen and (min-width: 1440px) {
@@ -52,6 +51,7 @@
 .echoes-list__list {
     @media screen and (min-width: 360px) {
             display: flex;
+            justify-content: center;
         }
     
         @media screen and (min-width: 1440px) {
