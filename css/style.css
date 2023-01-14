@@ -1223,26 +1223,46 @@ body {
 }
 
 .form {
-  background-image: url(../images/desktop/modal-flower.png), url(../images/desktop/modal-img.png);
-  background-repeat: no-repeat;
-  background-position: bottom 0px left 0px, center;
-  background-size: 355px, cover;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  max-width: 1440px;
-  min-height: 1024px;
-  padding: 100px;
+}
+@media screen and (min-width: 360px) {
+  .form {
+    background-image: url(../../images/mobile/flower2-desktop-mobile.png), url(../../images/mobile/flower-desktop-mobile.png), url(../../images/mobile/bg-desktop-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 168px, 182px, cover;
+    background-position: bottom 0px left 0px, bottom 0px right 0px, center;
+    min-height: 738px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form {
+    max-width: 1440px;
+    min-height: 1024px;
+    padding: 100px;
+    background-size: 355px, cover;
+    background-image: url(../images/desktop/modal-flower.png), url(../images/desktop/modal-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px left 0px, center;
+  }
 }
 
-.form-logo {
-  position: absolute;
-  width: 160px;
-  height: 120px;
-  margin-left: 1125px;
-  margin-top: 21px;
+@media screen and (min-width: 360px) {
+  .form-logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form-logo {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    margin-left: 1125px;
+    margin-top: 21px;
+  }
 }
 
 .form-p {
@@ -1269,11 +1289,21 @@ body {
 
 .form-payment {
   position: absolute;
-  top: 101px;
-  left: 167px;
-  width: 575px;
   background-color: rgba(168, 168, 168, 0.26);
-  padding-bottom: 22px;
+}
+@media screen and (min-width: 360px) {
+  .form-payment {
+    width: 305px;
+    left: 200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form-payment {
+    top: 101px;
+    left: 167px;
+    width: 575px;
+    padding-bottom: 22px;
+  }
 }
 
 .form-title {
@@ -1382,15 +1412,22 @@ body {
   overflow: hidden;
 }
 
-.checkbox-icon {
-  content: "";
-  display: inline-block;
-  width: 23px;
-  height: 23px;
-  margin-right: 5px;
-  border: 2px solid black;
-  border-radius: 3px;
-  transition: transform 250ms linear;
+@media screen and (min-width: 360px) {
+  .checkbox-icon {
+    display: noneS;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .checkbox-icon {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    transition: transform 250ms linear;
+  }
 }
 
 .checkbox-input:checked + .checkbox-icon {
@@ -1411,14 +1448,21 @@ body {
   position: absolute;
 }
 
-.checkbox-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
-  transition: transform 250ms linear;
+@media screen and (min-width: 360px) {
+  .checkbox-text {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .checkbox-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    transition: transform 250ms linear;
+  }
 }
 
 .checkbox-input:checked ~ .checkbox-text {
@@ -1479,7 +1523,7 @@ body {
   font-weight: 400;
   font-size: 28px;
   line-height: 33px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 260px;
   margin-top: 163px;
 }
