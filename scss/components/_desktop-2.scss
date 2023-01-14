@@ -51,6 +51,7 @@
 
   @media screen and (min-width: 1440px) {
     position: absolute;
+    display: block;
     width: 160px;
     height: 120px;
     margin-left: 1125px;
@@ -86,8 +87,9 @@
   background-color: rgba(168, 168, 168, 0.26);
 
   @media screen and (min-width: 360px) {
-    width: 305px;
-    left: 200px;
+      // margin-top: 100px;
+        width: 305px;
+        left: 130px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -113,8 +115,18 @@
 }
 
 .form-all {
-  display: flex;
-  justify-content: space-between;
+    @media screen and (min-width: 360px) {
+    padding-left: 50px;
+      display: flex;
+      justify-content: center;
+        }
+      
+  @media screen and (min-width: 1440px) {
+    
+  padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
 }
 
 .form-list {
@@ -164,9 +176,18 @@
 }
 
 .form-images {
+      @media screen and (min-width: 360px) {
   display: flex;
-  margin-right: 22.12px;
-  margin-left: 65px;
+    margin-right: 22.12px;
+    margin-left: 65px;
+        }
+      
+        @media screen and (min-width: 1440px) {
+        display: flex;
+          margin-right: 22.12px;
+          margin-left: 65px;
+        }
+
 }
 
 .form-visa {
@@ -256,6 +277,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    display: block;
 
     color: #ffffff;
     transition: transform 250ms linear;
@@ -309,6 +331,7 @@
 
 .form-nike {
   position: absolute;
+  top: 200px;
   margin-left: 175px;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -317,6 +340,7 @@
 
 .form-price {
   position: absolute;
+  bottom: -180px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
